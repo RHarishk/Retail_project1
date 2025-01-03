@@ -4,7 +4,7 @@ This repository provides two key datasets:
 
 These datasets can be used to explore sales performance, regional trends, and customer behavior.
 
-This project consist of both phthon programming for cleaning the table, and creating data set with meaningful format and sql queries.
+This project consist of both python programming for cleaning the table, and creating data set with meaningful format and sql queries.
 
 SQL QUERIES:
 Top-Selling Products: Identify the products that generate the highest revenue based on sale prices.
