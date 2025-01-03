@@ -34,4 +34,4 @@ Discount Analysis: Identify products with discounts greater than 20% and calcula
 --19.List all orders shipped to California.
 --20.What is the average list price for products in each sub-category?
 
-Then created Streamlit application using vscode to create a url to get table consist of data with from its query listed in the option.
+Then created Streamlit application using vscode to create a url to get table consist of data from its query listed in the option.
