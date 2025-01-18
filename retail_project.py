@@ -1,8 +1,6 @@
 import pandas as pd
 import streamlit as st
 import psycopg2
-from flask_sqlalchemy import SQLAlchemy
-from sqlalchemy.engine import create_engine
 
 conn = psycopg2.connect(
             host="awsharidb.ctymce8so47v.ap-south-1.rds.amazonaws.com",
