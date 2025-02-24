@@ -3,11 +3,11 @@ import streamlit as st
 import psycopg2
 
 conn = psycopg2.connect(
-            host="awsharidb.ctymce8so47v.ap-south-1.rds.amazonaws.com",
+            host="harishrds.chiyki4sw370.ap-south-1.rds.amazonaws.com",
             user="postgres",
             password="harish123",
             port=5432,
-            dbname="retaildb")
+            dbname="postgres")
 
 
 
