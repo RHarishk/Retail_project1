@@ -29,7 +29,7 @@ GUVI_questions=[
 "9 Find the product category with the highest total profit.",
 "10 Calculate the total revenue generated per year."]
 OWN_questions=[
-"11 List all orders that resulted in a loss (negative profit)."
+"11 List all orders that resulted in a loss (negative profit).",
 "12.What is the total revenue (sale_price) by state?",
 "13 Find the product with the highest sale price.",
 "14 Which postal code had the most orders?",
