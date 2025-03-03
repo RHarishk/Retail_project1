@@ -49,7 +49,7 @@ queries_guvi=[#1 Find top 10 highest revenue generating products
 #4 Find the average sale price per product category
 "select category ,avg(sale_price) from sales_table group by category",
 #5 Find the region with the highest average sale price
-"select region from(select a.region,avg(s.sale_price) avg_per_region from sales_table as s join address_table as a on s.postal_code=a.postal_code group by region order by avg_per_region desc limit 1)",
+"select region,avg_per_region from(select a.region,avg(s.sale_price) avg_per_region from sales_table as s join address_table as a on s.postal_code=a.postal_code group by region order by avg_per_region desc limit 1)",
 #6 Find the total profit per category
 "select category,sum(profit) from sales_table group by category order by category asc",
 #7 Identify the top 3 segments with the highest quantity of orders
