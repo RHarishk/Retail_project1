@@ -78,7 +78,7 @@ queries_mine=[
 #18 Find the total discount amount provided for orders in the "South" region.
 "select a.region,sum(s.discount) from address_table as a join sales_table as s on s.postal_code = a.postal_code where a.region = 'South' group by a.region",
 #19 List all orders shipped to California.
-"select order_id, a.order_date,a.ship_mode, a.segment, a.postal_code, a.product_id, a.category, a.sub_category,a.cost_price, a.list_price, a.quantity, a.country, a.city, a.state, a.region from sales_table as s join address_table as a on s.postal_code=a.postal_code where state = 'California'",
+"select s.order_id, s.order_date,s.ship_mode, s.segment, s.product_id, s.category, s.sub_category,s.cost_price, s.list_price, s.quantity, a.country, a.city, a.state, a.region from sales_table as s join address_table as a on s.postal_code=a.postal_code where state = 'California'",
 #20.What is the average list price for products in each sub-category?
 "select avg(list_price),count(list_price),product_id,sub_category from sales_table group by product_id,sub_category order by sub_category asc"]
 
